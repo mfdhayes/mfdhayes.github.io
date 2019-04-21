@@ -1,3 +1,5 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 a {
 	color: blue;
 }
@@ -8,9 +10,20 @@ a:hover {
 	//code here
 }
 .class {
-	//code here
+	
 }
-//Check out color clicker
+.jumbotron {
+	background-color: white;
+	border-top: 3px solid rgb(249, 249, 249);
+}
+.card{
+	
+}
+.theme-colors: {
+	background-color: green;
+}
+
 body {
-	background-color: gray;
+	background-color: #edeaea;
 }
+
