@@ -1,8 +1,78 @@
 <html>
  <head>
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+ 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel = "stylesheet" href = "main2.css">
  </head>
  <body>
- 	<h1> Hello World! </h1>
+ 	<div class ="container">
+ 		<nav class ="navbar navbar-expand-lg navbar-dark bg-primary">
+ 			<a class ="navbar-brand" href="#">Marshall Hayes</a>
+ 			<!--if screen gets to small then toggles a option for dropdown menu-->
+ 			<button class ="navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+ 				<span class ="navbar-toggler-icon"></span>
+ 			</button>
+ 			<!--Creates dropdown menu for all options under "Contact"-->
+ 			<div class ="collapse navbar-collapse" id ="navbarSupportedContent">
+ 				<ul class ="navbar-nav ml-auto">
+ 					<li class ="nav-item">
+ 						<a class ="nav-link" href = "https://mfdhayes.github.io">Home</a>	
+ 					</li>
+ 					 <li class ="nav-item">
+ 						<a class = "nav-link" href ="https://mfdhayes.github.io/about-me/">About Me</a>	
+ 					</li>
+ 					 <li class ="nav-item">
+ 						<a class ="nav-link" href ="#">Experience</a>	
+ 					</li>
+ 					 <li class ="nav-item dropdown">
+ 						<a class ="nav-link dropdown-toggle" href = "#" id = "navbarDropdown" data-toggle ="dropdown">Contact</a>	
+ 						<div class ="dropdown-menu">
+ 							<a class ="dropdown-item" href="https://www.facebook.com/marshall.hayes.750" target = "blank-space">Facebook 
+ 							</a>
+ 							<div class ="dropdown-divider"></div>
+ 							<a class ="dropdown-item" href="https://www.instagram.com/marshall_hayes/?hl=en" target = "blank-space">Instagram</a>
+ 							<div class ="dropdown-divider"></div>
+ 							<a class ="dropdown-item" href="https://mail.google.com/mail/u/0/?tab=wm#inbox?compose=XBcJlKtlJzgsRpgWPDjQKtFGKxKSdcgzBCsvRtkjGZJLLvLzPVSHsRdlmZczbzvmpMMPZPFkNGZQnCfG">Email</a>
+ 						</div>
+ 					</li>
+ 				</ul>
+ 			</div>
+ 		</nav>
+ 		 <div class ="jumbotron">
+ 			<h1 class="display-4">About Me</h1>
+ 			<p class="lead" >Current student at the University of Michigan. I am currently thinking about minoring in Computer Science. </p>
+ 		</div>
+ 		<div class ="row mt-sm-4 mt-md-0">
+ 			<div class ="col-sm-12 col-md-8">
+ 				<h3>About Me</h3>
+ 				<p class ="lead"> This is my website! I will add more to this section later.</p>
+ 				<p> Add more fun facts about myself, such as where I grew up, what I like to do for fun, etc. Maybe talk about something memorable in my life that will stand out.</p>
+ 				<p> Perhaps continue talking about my schooling here and other things that will make me stand out. I want to just make this paragraph bit longer so I am going to keep typing so that it looks like it is longer for layout purposes.</p>
+ 			</div>
+ 			<div class ="col-sm-12 col-md-4">
+ 				<h3 class ="mb-4">Guide</h3>
+ 				<ul class ="nav flex-column nav-pills">
+ 					<li class = "nav-item">
+ 						<a class="nav-link" href = "https://mfdhayes.github.io">Home</a>
+ 					</li>
+ 					<li class = "nav-item">
+ 						<a class="nav-link active" href = "https://mfdhayes.github.io/about-me/">About Me</a>
+ 					</li>
+ 					<li class = "nav-item">
+ 						<a class="nav-link" href = '#'>Experience</a>
+ 					</li>
+ 					 <li class = "nav-item">
+ 						<a class="nav-link" href = '#'>Contact</a>
+ 					</li>
+ 				</ul>
+ 			</div>
+		</div>
+
+ 	</div>
+
+
  </body>
 </html>
